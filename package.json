@@ -4,7 +4,7 @@
   "description": "Este proyecto está hecho para una prueba técnica para la empresa Omni.pro llevándolo acabo en Cypress con Cucumber para su escritura de casos de prueba",
   "main": "index.js",
   "scripts": {
-    "start cypress": "cypress open",
+    "start:cypress": "cypress open",
     "allure:generate": "cypress run && allure generate --clean ./cypress/test_supports/allure-results -o ./allure-report",
     "allure:open": "allure open ./allure-report"
   },

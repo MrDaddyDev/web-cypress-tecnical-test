@@ -20,12 +20,13 @@ Antes de ejecutar este proyecto, asegúrate de tener instalado lo siguiente:
 - [Node.js](https://nodejs.org/) (v14 o superior recomendado).
 - [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/).
 - Java (v8 o superior, para su uso con Allure Cypress)
+- [Allure](https://allurereport.org/) -> Solo si se generarán reportes
 
 ---
 
 ## 🚀 Instalación
 
-1. Clona este repositorio: https://github.com/tu-usuario/cypress-test-suite.git
+1. Clona este repositorio: https://github.com/MrDaddyDev/web-cypress-tecnical-test.git
 2. npm install
 
 
@@ -54,7 +55,7 @@ web-cypress-tecnical-test/
 
 1. Abrir una terminal y iniciar cypress.
 
-    ```npm run start cypress ó cypress open```
+    ```npm run start:cypress ó cypress open```
 
 2. Al tener la interfaz si no ingresa directamente al proyecto, seleccionar la carpeta del mismo.
 
